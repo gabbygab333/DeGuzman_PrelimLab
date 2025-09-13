@@ -1,1 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            margin-top: 20px;
+            font-size: 40px;
+        }
+
+        form {
+            width: 300px;
+            margin-top: 20px;
+        }
+
+        label {
+            font-size: 20px;
+            display: block;
+            margin-bottom: 5px;
+            margin-top: 15px;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #aaa;
+            border-radius: 5px;
+        }
+
+        .login-link {
+            margin-top: 20px;
+            text-align: center;
+            font-size: 18px;
+        }
+
+        .login-link a {
+            text-decoration: none;
+            color: blue;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Signup</h1>
+
+    <form>
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" placeholder="Input Field">
+
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" placeholder="Input Field">
+
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Input Field">
+
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder="Input Field">
+    </form>
+
+    <div class="login-link">
+        Already have an account? <br>
+        <a href="#">Login here</a>
+    </div>
+
+</body>
+
+</html>
